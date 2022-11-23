@@ -1125,7 +1125,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit","[+150]% Strength <vs [Stealth Bomber] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -1226,7 +1226,7 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+150]% Strength <vs [Stealth Bomber] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1249,7 +1249,7 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"uniques": ["Damage taken from interception reduced by [90]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
 
