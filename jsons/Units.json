@@ -984,7 +984,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>","[+2] Sight","[+150]% Strength <vs [Stealth Bomber] units>"],
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>","[+2] Sight","[+10]% Strength <vs [Stealth Bomber] units>"],
 		"attackSound": "shipguns"
 	},
 
@@ -1125,7 +1125,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit","[+150]% Strength <vs [Stealth Bomber] units>"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit","[+10]% Strength <vs [Stealth Bomber] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -1201,7 +1201,7 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit","[+1] Sight","[+200]% Strength <vs [Stealth Bomber] units>"],
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit","[+1] Sight","[+10]% Strength <vs [Stealth Bomber] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1226,7 +1226,7 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[+200]% Strength <vs [Stealth Bomber] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+10]% Strength <vs [Helicopter] units>","[+200]% Strength <vs [Stealth Bomber] units>"],
 		"attackSound": "jetgun"
 	},
 	{
