@@ -946,7 +946,7 @@
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Flight",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","[10]% chance to intercept air attacks"]
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","[50]% chance to intercept air attacks"]
 	},
 	{
 		"name": "Battleship",
@@ -958,7 +958,7 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Telegraph",
-		"uniques": ["Never appears as a Barbarian unit","[25]% chance to intercept air attacks"],
+		"uniques": ["Never appears as a Barbarian unit","[50]% chance to intercept air attacks"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
@@ -972,7 +972,7 @@
 		"cost": 375,
 		"requiredTech": "Radio",
 		"upgradesTo": "Mobile SAM",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -983,8 +983,9 @@
 		"interceptRange": 4,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>","[+2] Sight","[-10]% Strength <vs [Stealth Bomber] units>"],
+		"uniques": ["Can see invisible [Submarine] units", "[50]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>","[+2] Sight",
+			"[+100]% Strength <vs [Air] units>"],
 		"attackSound": "shipguns"
 	},
 
@@ -1125,7 +1126,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit","[-25]% Strength <vs [Stealth Bomber] units>"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
@@ -1200,8 +1201,10 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit","[+1] Sight","[-20]% Strength <vs [Stealth Bomber] units>"],
+		"uniques": ["[75]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", 
+			"Never appears as a Barbarian unit","[+1] Sight",
+			"[+100]% Strength <vs [Air] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1226,7 +1229,8 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>","[-15]% Strength <vs [Stealth Bomber] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 	{
